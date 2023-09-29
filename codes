@@ -1,0 +1,17 @@
+ad = ('a', 'we', 34)
+bd = ['a', 'we', 34]
+bd.append('you')
+number = 1 
+
+if ad == bd:
+  print("They are the same")
+else:
+  print("Not equal")
+print(bd)
+
+for i in ad:
+  print(i)
+
+for x in bd:
+  print(number, x)
+  number = number + 1
